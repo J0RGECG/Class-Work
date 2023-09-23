@@ -1,0 +1,9 @@
+number1=float(input("enter any number between 0.0 to 100.0"))
+if(number1 > 90.0 and number1 <= 100):
+    print("grade is an A!")
+if(number1 > 80.0 and number1 <= 90.0):
+    print("grade is an B!")
+if(number1 > 70.0 and number1 <= 80.0):
+    print("grade is an C!")    
+if(number1 > 0.0 and number1 <= 70):
+    print("grade is an F")

@@ -1,0 +1,7 @@
+value1 = int(input("Enter first value"))
+if(value1 > 42):
+    print("Your input is greater than 42")
+elif(value1 == 42):
+    print("The number is 42!")    
+else:
+    print("Your input is lower than 42")

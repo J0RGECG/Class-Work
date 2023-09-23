@@ -1,0 +1,9 @@
+#Exercise 2
+myString = "Hello there"
+yourString = "Cal State LA"
+print(myString , yourString )
+
+a = 10
+b = 11
+c = a + b
+print(c)

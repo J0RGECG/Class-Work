@@ -1,0 +1,6 @@
+#Exercise 3
+price = 4.5
+taxRate = 7.25
+tax = 0
+tax = price * taxRate
+print("The tax is" , tax)

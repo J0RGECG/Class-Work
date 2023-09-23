@@ -1,0 +1,12 @@
+#Exercise 1
+wombat = 15
+print("the value of the wombat is")
+print(wombat)
+horse = 37
+print(horse)
+print(horse , "is the value of the horse")
+print(wombat + horse)
+wombat = 5
+horse = 10
+print(wombat + horse)
+

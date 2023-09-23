@@ -1,0 +1,10 @@
+print("LA" == "NYC")
+print(2221 != 2799)
+print(2221 > 2799)
+print(2221 >= 2799)
+print(2221 < 2799)
+print(2221 <= 2799)
+
+print(2221 or 2799)
+print(2221 and 2799)
+print (True not False)

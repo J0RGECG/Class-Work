@@ -1,0 +1,6 @@
+#Exercise4
+num28 = int(input("Enter first number"))
+print("the number you entered is: " , num28)
+print("Your number in binary is: " , bin(num28))
+print("Your number in hexadecimal is: " , hex(num28))
+
