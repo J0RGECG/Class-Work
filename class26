@@ -1,0 +1,55 @@
+print("Welcome to McToFuButterBurger")
+print("Menu:")
+print("1 - McStandard (1 patty)")
+print("2 - McGordo (2 pattys)")
+print('3 - McChonk (3 pattys)')
+input1 =int(input("Please select a Burger [1,2,3]"))
+if(input1 == 1):
+    print("Number 1 would you like cheese to your burger?")
+elif(input1 == 2):
+    print("Number 2 would you like cheese to your burger?")
+else:
+     print("Number 3 would you like chesse to your burger?")
+
+input2 = (input("Yes or No"))
+if(input2 =="Yes"):
+    print("Yes")
+if(input2 == "No"):
+    print("No")    
+
+input3 = (input("Would you like a Combo")) 
+if(input3 == "Yes"):
+    print("Yes")
+if(input3 == "No"):
+    print("No")  
+
+input4 = (input("what size?"))    
+if(input4 == "M"):
+    print("M")
+elif(input4 == "L"):
+    print("L")
+else:
+    print("none")      
+print("-------------------------------------------------------")
+print("Your Order:")    
+print("-------------------------------------------------------")
+if(input1 ==1):
+    print("McStandard                        $3.45")
+elif(input1 ==2):
+    print("McGrodo                           $5.24")
+else:
+    print("McChonk                           $6.95")
+if(input2 == "Yes"):
+    print("With cheese                       $1.23")
+else:
+    print("With cheese                       0.00") 
+
+if(input4 == "M"):
+    print("Medium combo                      $2.76")
+elif(input4 == "L"):
+    print("Large combo                       $3.89")
+else:
+    print("No combo                          $0.00")
+print("--------------------------------------------------------")
+if(input1 == 3.45,input2 == 1.23,input4 == 3.89):
+    print(3.45+1.23+3.89)
