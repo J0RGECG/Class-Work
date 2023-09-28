@@ -1,0 +1,29 @@
+
+input1 =input("Enter your choice of Rock(R) Paper(P) or Scissors(S)")
+import random
+ran = random.randint(0,2)
+if(ran == 0):
+    print("R")
+if(ran == 1):
+    print("S")
+if(ran == 2):
+    print("P")
+
+if(input1 == "R" and ran == 1):
+    print("Rock wins")
+if(input1 == "S" and ran == 2):
+    print("Scissors wins")
+if(input1 == "P" and ran == 0):
+    print("Paper wins")
+if(input1 == "R" and ran == 2):
+    print("Paper wins")
+if(input1 == "P" and ran == 1):
+    print("Scissors wins")
+if(input1 == "S" and ran == 0):
+    print("Rock wins")
+if(input1 == "R" and ran == 0):
+    print("Draw!")  
+if(input1 == "S" and ran == 1):
+    print("Draw!")    
+if(input1 == "P" and ran == 2):
+    print("Draw!")    
