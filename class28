@@ -1,0 +1,42 @@
+print("Pick one for I can guess get! Fish,Taratula,Snake and Octopus.")
+input1 = input("type okay to move on.")
+
+import random
+myNum = random.randint(1,2)
+if(myNum == 1):
+    print("Dose your animal live in water?")
+if(myNum == 2):
+    print("Dose your animal live in a forest?")    
+
+input2 = input("Yes or No")
+
+if(myNum == 1 and input2 == "Yes"):
+    print("dose your animal have Legs?")
+elif(myNum == 1 and input2 == "No"):
+    print("dose your animal have no legs?") 
+
+if(myNum == 2 and input2 == "Yes"):
+    print("dose your animal have legs?") 
+elif(myNum == 2 and input2 == "No"):
+    print("dose your animal Have no legs?")
+  
+input3 = input("Yes or No")
+if(input3 == "No" and myNum ==2 and input2 == "Yes"):
+    print("Your animal is a snake.")
+if(input3 == "No" and myNum ==1 and input2 == "No"):
+    print("Your animal is a snake")
+
+if(input3 == "Yes" and myNum == 1 and input2 == "Yes"):
+    print("Your animal is a Octopus")
+if(input3 == "Yes" and myNum == 2 and input2 == "No"):
+    print("Your animal is a Octopus")
+
+if(input3 == "Yes" and myNum == 2 and input2 == "Yes"):
+    print("Your animal is a Tarantula")
+if(input3 == "Yes" and myNum == 1 and input2 == "No"):
+    print("Your animal is a Tarantula")    
+
+if(input3 == "No" and myNum == 2 and input2 == "No"):
+    print("Your animal is a fish") 
+if(input3 == "No" and myNum == 1 and input2 == "Yes"):
+    print("Your animal is a fish")    
