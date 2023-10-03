@@ -1,0 +1,33 @@
+import random
+secretNum = random.randint(1,10)
+input1 = int(input("Guess what is my Number 1 to 10"))
+if(secretNum == input1 ):
+    print("Your number is right!")
+
+if(secretNum > input1):
+    print("Your number is greater than")    
+if(secretNum < input1):
+    print("Your Number is less than")   
+
+input2 = int(input("Try a new number"))
+if(secretNum == input2 ):
+    print("Your number is right!")
+if(secretNum > input2):
+    print("Your number is greater than")
+if(secretNum < input2):
+    print("Your number is less than") 
+
+input3 = int(input("Try a new number"))
+if(secretNum == input3):
+    print("Your number is right")
+if(secretNum > input3):
+    print("Your number is greater then") 
+if(secretNum < input3):
+    print("Your number is greater then")    
+
+if(secretNum == input1 and secretNum == input2 and secretNum == input3):
+    print("You Won!")
+    print("The Num was",secretNum)    
+else:
+    print("you have lost")
+    print("The Num was", secretNum)
